@@ -1,0 +1,23 @@
+> DJANGO OU FLASK: características, semelhanças e diferenças
+Django e Flask são dois frameworks escritos em Python, com foco no desenvolvimento web. Neste artigo vou mostrar as características e semelhanças entre eles.
+
+> Django
+Segundo a documentação oficial, o Django é uma estrutura escrita em Python, que busca o desenvolvimento rápido, design limpo e pragmático. Com código aberto e gratuito, a principal
+proposta é ajudar o desenvolvedor ou desenvolvedora a pensar na aplicação. Sua principal convenção é o DRY (Don't Repeat Yourself, em tradução livre: não seja repetitivo), que 
+visa o máximo de proveito do código criado evitando código duplicado. O Django utiliza um padrão similar ao MVC (model-view-controller), porém aqui chamado de MTV
+(model-template-view), onde dividimos a aplicação em camadas ou partes, tornando o código mais organizado e legível.
+
+.Porque não chamar de MVC?
+Para quem desenvolve utilizando o Django, o controller é o próprio framework, já que quando uma url é acessada, a própria engine do Django faz o redirecionamento para a view correta, conforme definição nas configurações de url,
+executando assim o papel do controller.
+
+> Flask
+O Flask é baseado na biblioteca WSGI e têm como característica a simplicidade e uma velocidade de criação superior ao Django. É considerado por muitos um pequeno framework, mas ser pequeno não significa que ele faz menos do que outras
+estruturas. O FLASK FOI PROJETADO COMA UMA EXTRUTURA FLEXÍVEL DESDE O INÍCIO, fornecendo tudo que é necessário para realizar as funcionalidades mais básicos, enquanto as extensões fornecem o restante. Segundo o criador do framework
+Armin Ronacher, o Flask possui três dependências principais: as rotas, debugging e Web Server Gateway Interface WSGI.
+
+> Comparando o Django e o Flask
+Observe que não existe um framework melhor que o outro e sim objetivos diferentes. Por exemplo, caso queira criar uma aplicação que possua um Admin, ORM para diferentes bancos é recomendado o Django 
+(não significa que o Flask não seja capaz, apenas uma recomendação). Porém, se meu objetivo for velocidade no desenvolvimento de APIs e microsserviços, é recomendado o Flask (não significa que o Django não seja capaz, apenas uma recomendação).
+
+

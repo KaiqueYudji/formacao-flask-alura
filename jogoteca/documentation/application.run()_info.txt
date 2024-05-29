@@ -1,0 +1,10 @@
+Nem sempre queremos rodar nossa aplicação na porta 5000 ou mesmo deixar o nosso endereço como 127.0.0.1.
+
+Se eu quiser usar a porta 8080 para aplicação ou até mesmo permitir acessos externos à aplicação definindo o host como 0.0.0.0, como devo proceder?
+
+Quando executamos nossa aplicação Flask utilizamos uma instância do Flask e chamamos o método run. Perceba que quando fazemos isto no vídeo não passamos nenhum parâmetro para este método.
+
+Para definir a porta como 8080 e o host como 0.0.0.0 devemos chamar o run da seguinte maneira.
+
+# trecho da app
+app.run(host='0.0.0.0', port=8080)

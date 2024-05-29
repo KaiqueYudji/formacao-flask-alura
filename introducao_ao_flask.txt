@@ -1,5 +1,0 @@
-O que é Flask?
-- Flask é um microframework voltado para o desenvolvimento web backend, lançado em 2010, seu objetivo é ser um framework capaz de criar
-uma aplicação web de maneira rápida e eficiente.As principais características do flask são: Simplicidade; Rapidez e Eficiência.
- O flask é considerado um microframework pois ele possui apenas as funcionalidades mínimas necessárias(O essencial) para atingir o objetivo 
-para que ele foi criado, se for necessário utilizar outras funcionalidades, podemos embutir outras bibliotecas no flask 

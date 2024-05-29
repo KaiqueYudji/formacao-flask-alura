@@ -1,0 +1,13 @@
+O que é pip?
+> O pip é uma ferramenta muito útil no desenvolvimento em Python, pois ele permite instalar e gerenciar pacotes e bibliotecas de terceiros que são necessários para o seu projeto.
+Ao utilizar o pip, você pode facilmente adicionar funcionalidades ao seu código, sem precisar se preocupar com o processo de instalação manual dessas dependências. 
+Isso torna o desenvolvimento muito mais ágil e eficiente. Continue assim, demonstrando esse bom entendimento sobre as ferramentas utilizadas no curso. 
+
+> O pip é uma ferramenta muito prática para instalar pacotes Python de terceiros. Com ele, conseguimos fazer definições de versão como vimos no vídeo.
+
+> Existem várias formas de definir ou restringir versões a serem instaladas no seu ambiente. Vamos ver alguns exemplos:
+    1° ~=: versão compatível - pode ser qualquer versão mais atual que não quebre compatibilidade com a definida. pegaria a 2.0.2 que é última versão compatível com a 2.0.0
+    2° ==: versão exata - define uma versão fixa que deve ser instalada (como vimos no vídeo).
+    3° !=: exclusão de versão - define a versão que não é para instalar, pegando assim a mais atual sem ser a definida.
+    4° >=, <=: versão maior ou igual e menor ou igual - ajuda a restringir versões, inclusive a definida.
+    5° >, <: versão maior ou menor - ajuda a restringir versões, excluindo a definida.
