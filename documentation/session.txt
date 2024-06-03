@@ -1,0 +1,16 @@
+.Session é um recurso do Flask que permite um armazenamento temporário de dados que persiste as informações coletadas por mais de um ciclo de request.
+
+.Isso é feito através do armazenamento dos dados no Client-side (Lado do cliente) da aplicação, ou seja, no navegador, através dos cookies.
+
+.A session consegue persistir os dados através de cryptographically-signed cookies (cookies assinados criptograficamente). Esses cookies são enviados a cada ciclo de request para o servidor, 
+onde são processados da forma que a aplicação demanda.
+
+.É necessária a configuração de uma secret_key no servidor para a utilização da session . Isso é essencial para garantir uma maior segurança dos dados guardados nos cookies, já que uma pessoa má intencionada 
+poderia acessar os cookies do navegador e mudar os seus dados armazenados.
+
+.A secret_key fornece um nível de assinatura criptográfica aos cookies. Isso significa que seu conteúdo não pode ser alterado. Porém, é importante ressaltar que a natureza criptográfica dos cookies não 
+necessariamente impede a visualização dos dados.
+
+.Portanto, apesar de não ser recomendada a utilização de sessions para armazenamento de dados sensíveis e dependerem do tamanho máximo de armazenamento dos cookies (por volta de 4 KB), sessions se apresentam 
+como um recurso poderoso do Flask, sendo rápidas de instanciar e fáceis de escalar.
+

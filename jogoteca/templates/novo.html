@@ -1,6 +1,6 @@
 {% extends "template.html"%}<!-- Esta funcionalidade de reaproveitar o mesmo code em diversos locais é possível graça ao motor de templates jinja2  -->
 {%block conteudo%}
-      <form action="/criar" method="post">
+      <form action="{{ url_for('create_game') }}" method="post">
         <fieldset>
           <div class="form-group">
             <label for="nome">Nome</label>
